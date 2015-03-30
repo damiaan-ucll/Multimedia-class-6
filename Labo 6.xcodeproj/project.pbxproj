@@ -10,9 +10,11 @@
 		74037ADA1AC9D6DC0038DF4F /* PlaneFigure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74037AD81AC9D6DC0038DF4F /* PlaneFigure.cpp */; };
 		74037ADD1AC9D85D0038DF4F /* Rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74037ADB1AC9D85D0038DF4F /* Rect.cpp */; };
 		74037AE41AC9DEF30038DF4F /* Date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74037AE21AC9DEF30038DF4F /* Date.cpp */; };
+		74037AE71AC9E3760038DF4F /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74037AE51AC9E3760038DF4F /* Person.cpp */; };
 		742A70061AC9A40000082DDA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 742A70051AC9A40000082DDA /* main.cpp */; };
 		742A700E1AC9ACDD00082DDA /* Foo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 742A700C1AC9ACDD00082DDA /* Foo.cpp */; };
 		742A70111AC9AD1D00082DDA /* Goo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 742A700F1AC9AD1D00082DDA /* Goo.cpp */; };
+		74EA17381AC9ED1700593784 /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74EA17361AC9ED1700593784 /* Student.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,8 @@
 		74037ADC1AC9D85D0038DF4F /* Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rect.h; sourceTree = "<group>"; };
 		74037AE21AC9DEF30038DF4F /* Date.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Date.cpp; sourceTree = "<group>"; };
 		74037AE31AC9DEF30038DF4F /* Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
+		74037AE51AC9E3760038DF4F /* Person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		74037AE61AC9E3760038DF4F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		742A70021AC9A40000082DDA /* Labo 6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Labo 6"; sourceTree = BUILT_PRODUCTS_DIR; };
 		742A70051AC9A40000082DDA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		742A700C1AC9ACDD00082DDA /* Foo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Foo.cpp; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		742A702E1AC9C0BC00082DDA /* B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = B.h; path = "exercise 3/B.h"; sourceTree = "<group>"; };
 		742A70351AC9C11700082DDA /* C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C.h; path = "exercise 3/C.h"; sourceTree = "<group>"; };
 		742A70381AC9C11F00082DDA /* D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D.h; path = "exercise 3/D.h"; sourceTree = "<group>"; };
+		74EA17361AC9ED1700593784 /* Student.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		74EA17371AC9ED1700593784 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,19 @@
 			name = "Exercise 4";
 			sourceTree = "<group>";
 		};
+		74037AE81AC9E37B0038DF4F /* Exercise 5 */ = {
+			isa = PBXGroup;
+			children = (
+				74037AE51AC9E3760038DF4F /* Person.cpp */,
+				74037AE61AC9E3760038DF4F /* Person.h */,
+				74EA17361AC9ED1700593784 /* Student.cpp */,
+				74EA17371AC9ED1700593784 /* Student.h */,
+				74037AE21AC9DEF30038DF4F /* Date.cpp */,
+				74037AE31AC9DEF30038DF4F /* Date.h */,
+			);
+			name = "Exercise 5";
+			sourceTree = "<group>";
+		};
 		742A6FF91AC9A40000082DDA = {
 			isa = PBXGroup;
 			children = (
@@ -91,12 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				742A70051AC9A40000082DDA /* main.cpp */,
-				74037AE21AC9DEF30038DF4F /* Date.cpp */,
-				74037AE31AC9DEF30038DF4F /* Date.h */,
 				742A70121AC9ADF900082DDA /* Exercise 1 */,
 				742A70131AC9AEE300082DDA /* Exercise 2 */,
 				742A701D1AC9C02A00082DDA /* Exercise 3 */,
 				74037AE11AC9DECF0038DF4F /* Exercise 4 */,
+				74037AE81AC9E37B0038DF4F /* Exercise 5 */,
 			);
 			path = "Labo 6";
 			sourceTree = "<group>";
@@ -191,6 +209,8 @@
 			files = (
 				742A70111AC9AD1D00082DDA /* Goo.cpp in Sources */,
 				742A700E1AC9ACDD00082DDA /* Foo.cpp in Sources */,
+				74037AE71AC9E3760038DF4F /* Person.cpp in Sources */,
+				74EA17381AC9ED1700593784 /* Student.cpp in Sources */,
 				74037ADA1AC9D6DC0038DF4F /* PlaneFigure.cpp in Sources */,
 				74037AE41AC9DEF30038DF4F /* Date.cpp in Sources */,
 				742A70061AC9A40000082DDA /* main.cpp in Sources */,
