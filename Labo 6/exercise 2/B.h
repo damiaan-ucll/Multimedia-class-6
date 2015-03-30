@@ -15,8 +15,8 @@
 namespace exerciseTwo {
 	
 	class B: public A { public:
-		B(int a, int b):A(a){std::cout << "ctor␣B:␣" << b << std::endl;}
-		~B(){std::cout << "dtor␣B" << std::endl;}
+		B(int a, int b):A(a){std::cout << "ctor B: " << b << std::endl;}
+		~B(){std::cout << "dtor B" << std::endl;}
 	};
 	
 }

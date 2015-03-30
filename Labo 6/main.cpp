@@ -10,6 +10,7 @@
 #include "Goo.h"
 #include "exercise 2/C.h"
 #include "exercise 3/D.h"
+#include "Rect.h"
 
 using namespace std;
 
@@ -31,14 +32,32 @@ void ex3() {
 	b.identify();
 }
 
+void ex4(PlaneFigure *figure) {
+	cout << figure->getArea() << endl;
+	cout << figure->getPerimeter() << endl;
+}
+
 int main(int argc, const char * argv[]) {
-	// insert code here...
 	
-//	ex1();
+	// Exercise 1
+	cout << "Exercise 1:\n";
+	ex1();
 	
-//	ex2();
+	// Exercise 2
+	cout << "\n\nExercise 2:\n";
+	ex2();
 	
+	// Exercise 3
+	cout << "\n\nExercise 3:\n";
 	ex3();
+	
+	// Exercise 4
+	cout << "\n\nExercise 4:\n";
+	Rect myRect = Rect(2,3);
+	ex4(&myRect);
+	
+	// Exercise 5
+	
 	
     return 0;
 }
