@@ -7,10 +7,12 @@
 //
 
 #include <iostream>
-#include "Goo.h"
-#include "exercise 2/C.h"
-#include "exercise 3/D.h"
-#include "Rect.h"
+#include "Goo.h" // Exercise 1
+#include "exercise 2/C.h" // Exercise 2
+#include "exercise 3/D.h" // Exercise 3
+#include "Rect.h" // Exercise 4
+#include "Date.h" // Exercise 5
+
 
 using namespace std;
 
@@ -53,11 +55,22 @@ int main(int argc, const char * argv[]) {
 	
 	// Exercise 4
 	cout << "\n\nExercise 4:\n";
-	Rect myRect = Rect(2,3);
+	Rect myRect(2,3);
 	ex4(&myRect);
 	
 	// Exercise 5
+	cout << "\n\nExercise 4:\n";
+	Date d(1,2,2000);
+	cout << d << endl;
 	
+	Person p("Filip", "Wallaert", d, true);
+	cout << p << endl;
+	const Person p2("Eva", "Beyens", Date(21,8, 1995), false);
+	cout << p2 << endl;
+	
+	Person *p3 = new Student("Karen", "Verbinnen", Date(13, 5, 1985), false, 1234);
+	cout << *p3 << endl;
+	return 0;
 	
     return 0;
 }
