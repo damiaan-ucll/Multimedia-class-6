@@ -16,7 +16,7 @@ namespace exerciseThree {
 	class B: public A{
 		
 	public:
-		virtual void identify() {
+		void identify() {
 			std::cout << "I am B." << std::endl;
 		}
 	};
